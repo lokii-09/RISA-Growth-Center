@@ -25,6 +25,40 @@ The app is Python 3.12 compatible and uses pandas, openpyxl, Pydantic, Streamlit
 processing, analytics, assistant safety, scenarios, proposals, and dashboard rendering. The source of KPI definitions is
 [docs/kpi_definitions.md](docs/kpi_definitions.md).
 
+## Documentation guide: where to find what
+
+Start with the item matching your question:
+
+| If you need to know… | Read this | What it contains |
+|---|---|---|
+| What the assignment requires and how it is graded | [Assignment PDF](docs/assignment.pdf) | Original brief, deliverables, and evaluation rubric. This is the highest-priority requirements source. |
+| A searchable text version of the brief | [Assignment text](docs/assignment.txt) | Text extraction of the PDF; use the PDF if formatting or wording differs. |
+| Which strategic and product-design choices were selected | [Final architecture blueprint](docs/final_blueprint.md) | Selected challenge/city, evidence interpretation, strategic choices, product architecture, and intended behavior. It is the primary design reference after the assignment. |
+| What the alternative blueprint drafts proposed | [Claude blueprint](docs/blueprint_claude.md) and [Gemini blueprint](docs/blueprint_gemini.md) | Supplementary design alternatives only. They contain assumptions that conflict with the selected blueprint and verified workbook—for example, the Gemini draft proposes Delhi NCR and a different event/budget. Do not treat those draft values as current decisions or historical results. |
+| What each workbook field means | [Generated data dictionary](docs/data_dictionary.md) | Worksheet fields, source types, and field-guide meanings, generated from the supplied workbook. |
+| How a KPI is defined and calculated | [Central KPI definitions](docs/kpi_definitions.md) | Human-readable numerators, denominators, filters, source tables, and caveats. Executable code: [`metrics.py`](src/analytics/metrics.py) orchestrates calculations; [`funnel.py`](src/analytics/funnel.py), [`attendance.py`](src/analytics/attendance.py), [`campaigns.py`](src/analytics/campaigns.py), and [`budget.py`](src/analytics/budget.py) implement the metric areas. |
+| What the workbook actually calculated | [Historical baseline report](reports/historical_baseline.md) | Reproducible workbook-derived historical results, including attendance split, spend, funnel, and campaign metrics. These are actuals, not the blueprint’s future planning projections. |
+| What was missing, duplicated, or cleaned | [Data quality report](reports/data_quality.md) | Raw-versus-clean record counts, missing values, duplicate handling, and cleaning decisions. |
+| Whether QA and deployment preparation passed | [Final QA report](docs/final_qa_report.md) | Audit findings, test commands/results, KPI reconciliation, security/deployment status, and final readiness. |
+| How the AI analyst performed | [AI evaluation](docs/ai_evaluation.md) | The 40-prompt test bank, observed behavior, supported/unsupported requests, safety checks, and evaluation limitations. |
+| How to publish and deploy manually | [Deployment guide](docs/deployment_guide.md) | GitHub setup, Streamlit Community Cloud configuration, secrets, and post-deployment smoke checks. |
+| What the app cannot answer or persist | [Known limitations](docs/known_limitations.md) | Data, attribution, AI, scenario, and session-state limitations. |
+
+### Source-of-truth and results rule
+
+Resolve conflicts in this order: **assignment requirements → final architecture blueprint → alternative blueprints**.
+For historical metrics, use the supplied workbook, the KPI definitions, and the executable analytics—not proposed
+targets, projections, or numbers copied from a design draft. The final blueprint includes strategic planning scenarios;
+those are not historical outcomes. The reports under `reports/` are regenerated from the workbook by the Phase 0
+pipeline:
+
+```powershell
+python -m src.run_phase0 "data\Attendee Dataset.xlsx" --reports reports --data-dictionary docs\data_dictionary.md
+```
+
+In short: **design choices are in `docs/final_blueprint.md`; formulas are in `docs/kpi_definitions.md` and implemented
+in `src/analytics/`; calculated historical results are in `reports/historical_baseline.md`.**
+
 ## Project phases and structure
 
 - **Phase 0 — Data foundation:** ingestion, cleaning, canonical tables, analytics, and reproducible reports.
@@ -107,11 +141,6 @@ funnel, campaigns, budget, scenarios, recommendations, follow-ups, unsupported r
 [docs/ai_evaluation.md](docs/ai_evaluation.md) for scope and limitations and
 [docs/final_qa_report.md](docs/final_qa_report.md) for the latest local QA evidence.
 
-## Deployment
-
-Deployment is a manual user action; this project has not been published or deployed. Follow
-[docs/deployment_guide.md](docs/deployment_guide.md) for GitHub preparation, Streamlit Community Cloud setup, and
-post-deployment checks.
 
 ## State and known limitations
 

@@ -1,0 +1,382 @@
+--- PAGE 1 ---
+RISA  Growth  APM  Assignment
+ 
+ 
+ 
+Growth  APM  Assignment  
+Imagine  you're  responsible  for  driving  the  success  of  a  major  college  festival  in  a  tier  1  city.  You  have  limited  time,  
+budget,
+ 
+and
+ 
+resources,
+ 
+but
+ 
+an
+ 
+ambitious
+ 
+goal.
+ Choose  a  Tier  1  Indian  city  for  the  festival  and  briefly  justify  your  
+preference.
+ 
+ 
+Choose  one  of  two  challenges:  
+●  Challenge  A   -   Attendee  Growth:  Maximize  the  number  of  people  who  actually  attend  the  festival.  ●  Challenge  B   -   Sponsorship  Growth:  Maximize  the  sponsorship  cash  collected  before  the  festival.  
+We  want  to  see  how  you  set  ambitious  goals,  make  decisions  with  incomplete  information,  prioritize  opportunities,  and  
+adapt
+ 
+based
+ 
+on
+ 
+results.
+ 
+Part  1   -   Your  Growth  Strategy  (Exactly  3  Slides)  
+Slide  1   -   How  High  Can  You  Aim?  
+What's  the  highest  outcome  you  believe  you  can  achieve,  and  why  should  we  believe  your  number?  
+Build  a  quantitative  model  supporting  your  target.  
+Attendee  Growth:  
+●  Identify  target  audiences,  their  potential  size,  and  why  you'd  prioritize  them.  ●  Model  the  funnel  from  reach  →  registrations  →  actual  attendees.  ●  Estimate  conversions,  acquisition  costs,  and  capacity  constraints.  ●  Present  a  realistic  base  case  and  an  ambitious  stretch  target.  
+Sponsorship  Growth:  
+●  Identify  potential  sponsors,  their  motivations,  and  your  selection  criteria.  ●  Model  the  funnel  from  prospects  →  conversations  →  proposals  →  signed  deals  →  cash  collected.  ●  Estimate  conversions,  deal  sizes,  timelines,  and  collectible  cash.  ●  Present  a  realistic  base  case  and  an  ambitious  stretch  target.  We're  evaluating: Ambition,  evidence- based  assumptions,  accurate  calculations,  and  confidence  in  your  reasoning.  Slide  2   -   Where  Will  You  Place  Your  Bets?  
+If  you  could  pursue  five  ideas  but  had  limited  resources,  where  would  you  invest,  and  what  would  you  avoid?  
+Propose  and  rank  five  distinct  strategies.  
+For  each  idea,  explain:  
+●  The  concept  and  why  it  could  work.  ●  Expected  incremental  contribution  to  your  target.  ●  Budget,  resources,  and  execution  timeline.  ●  How  you  would  test  it  and  which  KPIs  you  would  monitor.  
+Use  a  prioritization  framework  of  your  choice.  Consider  constraints,  dependencies,  risks,  and  overlap  between  ideas.  
+Page
+ 
+1  
+
+--- PAGE 2 ---
+RISA  Growth  APM  Assignment
+ 
+ 
+ Make  your  bets  explicit: Which  ideas  would  you  double  down  on?  Which  would  you  deprioritize  or  reject,  and  why?  We're  evaluating: Creativity,  prioritization,  understanding  of  tradeoffs,  and  the  ability  to  make  deliberate  choices.  Slide  3   -   How  Will  You  Know  What's  Working?  
+What  will  determine  the  success  or  failure  of  your  ideas,  and  how  will  you  adapt  before  it's  too  late?  
+For  each  idea:  
+●  Identify  the  critical  variables  and  biggest  risks.  ●  Define  early  signals  of  success  or  failure.  ●  Set  measurable  thresholds  to  scale,  change,  or  stop.  ●  Explain  the  actions  you'd  take  when  performance  changes.  ●  Show  how  your  dashboard  and  AI  tools  would  help  you  make  these  decisions.  We're  evaluating: Understanding  of  cause  and  effect,  experimentation,  leading  indicators,  and  the  ability  to  respond  to  
+evidence.
+  
+Part  2   -   Build  Your  Growth  Center  
+Your  strategy  shouldn't  live  only  in  a  presentation.  
+Build  a  working  analytics  dashboard,  campaign  management  tool,  and  embedded  AI  chatbot  for  your  chosen  challenge.  
+Think  of  this  as  the  command  center  your  team  would  use  to  run,  monitor,  and  continuously  optimize  the  festival  
+campaign.
+ 1.  Measure  Performance  
+Track  the  complete  growth  funnel,  campaign- level  KPIs,  targets  versus  actuals,  conversion  rates,  budgets,  and  projected  
+outcomes.
+ 2.  Diagnose  Performance  
+Identify  which  campaigns  are  performing  well,  which  are  underperforming,  where  bottlenecks  exist,  and  what  is  driving  
+changes.
+ 3.  Support  Decisions  
+Help  the  team  prioritize  initiatives,  allocate  resources,  and  decide  what  to  scale,  change,  or  stop  based  on  performance.  4.  Manage  Execution  
+Enable  the  team  to  manage  campaigns,  tasks,  owners,  deadlines,  and  action  items.  Changes  to  the  underlying  data  
+should
+ 
+update
+ 
+the
+ 
+relevant
+ 
+analytics.
+ 5.  Embedded  AI  Growth  Analyst  &  Copilot  (Brownie  Points)  
+Build  an  AI  chatbot  directly  into  your  product  that  helps  the  team  understand  performance,  investigate  problems,  and  
+take
+ 
+better
+ 
+decisions
+ 
+using
+ 
+actual
+ 
+campaign
+ 
+data.
+ 
+Your  chatbot  should:  
+Page
+ 
+2  
+
+--- PAGE 3 ---
+RISA  Growth  APM  Assignment
+ 
+ 
+ ●  Understand  your  data:  Answer  questions  using  current  campaign  metrics,  goals,  budgets,  tasks,  and  other  
+relevant
+ 
+information
+ 
+-
+ 
+not
+ 
+generic
+ 
+AI
+ 
+knowledge.
+ ●  Analyze  and  diagnose:  Compare  performance,  identify  bottlenecks,  explain  trends,  and  distinguish  evidence  
+from
+ 
+assumptions.
+ ●  Recommend  actions:  Suggest  what  to  prioritize,  improve,  scale,  or  stop,  with  reasoning  supported  by  data.  ●  Connect  to  execution:  Help  translate  insights  into  trackable  actions  or  tasks  within  your  management  tool,  with  
+user
+ 
+confirmation.
+ ●  Handle  uncertainty:  Reference  supporting  data,  recognize  missing  information,  and  acknowledge  when  the  
+evidence
+ 
+is
+ 
+insufficient.
+ 
+Important: We  are  not  looking  for  a  decorative  chatbot,  hardcoded  responses,  or  a  generic  marketing  Q&A  assistant.  
+Your
+ 
+chatbot
+ 
+should
+ 
+work
+ 
+with
+ 
+actual
+ 
+application
+ 
+data,
+ 
+perform
+ 
+meaningful
+ 
+analysis,
+ 
+and
+ 
+help
+ 
+users
+ 
+make
+ 
+or
+ 
+execute
+ 
+decisions.
+ 
+Demonstrate  one  complete  workflow:  
+Your  product  should  also  demonstrate  that  the  chatbot  can  answer  follow- up  questions  and  acknowledge  when  the  
+data
+ 
+cannot
+ 
+support
+ 
+an
+ 
+answer.
+ 
+You  may  use  realistic  simulated  data  and  any  coding,  no- code,  or  AI  tools.  A  live  external  integration  is  not  mandatory,  
+but
+ 
+your
+ 
+product
+ 
+must
+ 
+be
+ 
+functional,
+ 
+with
+ 
+persistent
+ 
+changes
+ 
+and
+ 
+reliable
+ 
+data
+ 
+updates.
+  
+Provided  Historical  Data   The  provided  datasets  are  placeholders  for  understanding  the  problem,  not  a  limit  on  your  creativity.  Think  beyond  the  
+data:
+ 
+explore
+ 
+new
+ 
+campaigns,
+ 
+audiences,
+ 
+and
+ 
+opportunities,
+ 
+and
+ 
+enrich
+ 
+or
+ 
+simulate
+ 
+data
+ 
+as
+ 
+needed.
+ 
+Clearly
+ 
+distinguish
+ 
+sourced
+ 
+facts
+ 
+from
+ 
+assumptions.
+ Challenge  A:  Attendee  Growth  Dataset (Attached)  
+Challenge  B:  Sponsorship  Growth  Dataset (Attached)  The  chatbot  needs  to  be  trained  on  the  dataset  you  choose  above.  Keep  the  original  data  for  your  chosen  track  available  
+for
+ 
+chatbot
+ 
+testing.
+ 
+Your
+ 
+chatbot
+ 
+will
+ 
+be
+ 
+tested
+ 
+on
+ 
+unfamiliar
+ 
+questions,
+ 
+changed
+ 
+data,
+ 
+calculations
+ 
+and
+ 
+when
+ 
+to
+ 
+say
+ 
+the
+ 
+data
+ 
+cannot
+ 
+answer.  
+Page
+ 
+3  
+
+--- PAGE 4 ---
+RISA  Growth  APM  Assignment
+ 
+ 
+ Submission  Requirements  
+1.  Three- slide  PDF:  Your  growth  strategy  for  one  chosen  challenge.  Include  your  name  on  the  first  slide.  2.  Working  product:  An  accessible  link  or  demo  of  your  analytics  dashboard,  management  tool,  and  embedded  AI  
+chatbot.
+ 3.  README:  Research,  assumptions,  detailed  calculations,  data  sources,  prioritization  framework,  setup  
+instructions,
+ 
+tools
+ 
+used,
+ 
+and
+ 
+known
+ 
+limitations.
+ 
+(Brownie
+ 
+Points)
+ You  may  use  any  technology  stack.  We  care  about  the  quality  of  your  reasoning,  decisions,  and  working  product  -  not  the  complexity  of  the  technology.  
+What  We  Look  For  
+We  evaluate  both  the  quality  of  your  thinking  and  how  well  your  product  turns  insights  into  action.   
+Weight  Evaluation  focus  
+20%  Ambition  and  quantitative  reasoning. Evidence- backed  growth  targets,  audience  or  sponsor  selection,  funnel  math,  realistic  assumptions,  and  stretch  potential.  
+20%  Creative  ideas,  prioritization  and  tradeoffs. Five  differentiated  ideas,  informed  bets,  realistic  constraints,  contribution  estimates,  and  clear  reasons  to  deprioritize  alternatives.  
+15%  Experimentation  and  adaptability. Leading  indicators,  clear  success  and  failure  signals,  measurable  scale/change/ stop  thresholds,  and  sensible  next  actions.  
+20%  Dashboard  and  management  functionality. Accurate,  updated  funnel  analytics,  usable  campaign  and  task  tracking,  saved  changes,  and  a  functioning  insight- to- action  workflow.  
+20%  Embedded  AI  chatbot  utility. Grounded  answers  using  current  data,  reliable  calculations,  useful  diagnosis  and  recommendations,  execution  support,  and  honest  handling  of  uncertainty.  
+5%  Ownership  and  communication. Clear  explanation  of  your  decisions,  implementation,  tools,  data  sources,  testing,  and  limitations.  A  polished  UI  or  large  projected  number  alone  will  not  earn  a  high  score.  We  may  test  your  product  by  changing  
+campaign
+ 
+data
+ 
+or
+ 
+constraints
+ 
+and
+ 
+asking
+ 
+you
+ 
+to
+ 
+respond.
+  
+Suggested  Starting  Points  and  Tools  
+You  do  not  need  a  paid  subscription  or  a  particular  tech  stack.  The  following  are  free  starting  points,  not  requirements:  ●  Lovable |  Prompt- driven  app  builder  for  a  fast  working  prototype.  ●  Google  AI  Studio |  Explore  and  connect  Gemini  models  for  your  embedded  AI  assistant.  ●  Supabase |  Database  and  authentication  to  support  persistent  records.   ●  VS  Code |  Code  editor,  version  control,  and  collaboration.  ●  Vercel |  Deploy  the  web  app  or  demo.   Paid  tools,  open- source  libraries,  and  templates  are  allowed.  In  your  README,  name  the  tools  and  plans  used,  link  
+sources,
+ 
+and
+ 
+explain
+ 
+what
+ 
+you
+ 
+reused,
+ 
+modified,
+ 
+and
+ 
+verified.
+  Note:  Every  submission  will  be  reviewed,  and  yours  could  be  the  one  that  stands  out.  Take  a  chance  and  give  it  your  
+best
+ 
+shot!
+ 
+Page
+ 
+4  
